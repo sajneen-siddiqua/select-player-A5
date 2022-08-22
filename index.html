@@ -30,7 +30,7 @@
                         <div class="card-body items-center text-center">
                           <h2 class="card-title">Mahmudullah Riyad</h2>
                           <div class="card-actions">
-                            <button id="1st-btn" class="btn btn-primary">Select</button>
+                            <button class="btn btn-primary"onclick="addTocart(this)">Select</button>
                           </div>
                         </div>
                       </div>
@@ -43,7 +43,7 @@
                         <div class="card-body items-center text-center">
                           <h2 class="card-title">Mushfiqur Rahim</h2>
                           <div class="card-actions">
-                            <button class="btn btn-primary">Select</button>
+                            <button class="btn btn-primary" onclick="addTocart(this)">Select</button>
                           </div>
                         </div>
                       </div>
@@ -56,25 +56,34 @@
                         <div class="card-body items-center text-center">
                           <h2 class="card-title">Tamim Iqbal</h2>
                           <div class="card-actions">
-                            <button class="btn btn-primary">Select</button>
+                            <button class="btn btn-primary" onclick="addTocart(this)">Select</button>
                           </div>
                         </div>
                       </div>
                       <!-- 3rd end -->
                     <!-- selected five section -->
                     <div class="card w-full bg-base-100 shadow-xl">
-                        <h1 class="italic text-2xl font-bold text-center text-white">~Seleted Favourite Five~</h1>
-                        <ol id="order-list" class="list-decimal">
-                          <li id="1"></li>
-                          <li id="2"></li>
-                          <li id="3"></li>
-                          <li id="4"></li>
-                          <li id="5"></li>
-                          <!-- ... -->
-                        </ol>
-                        <div class="card-body items-center text-center">
-                          
-                          
+                        <!-- <h1 class="italic text-2xl font-bold text-center text-white">~Seleted Favourite Five~</h1> -->
+                        <!-- table -->
+                        <div class="overflow-x-auto">
+                          <table class="table table-zebra w-full">
+                            <!-- head -->
+                            <thead>
+                              <tr>
+                                <th></th>
+                                <th class="italic text-2xl font-bold text-center text-white" >~Seleted Five~</th>
+                               
+                              </tr>
+                            </thead>
+                            <tbody id="cart-players">
+                             <!-- <tr>
+                              <th>1</th>
+                              <td>cy carmon</td>
+                             </tr>
+                               -->
+                              
+                            </tbody>
+                          </table>
                         </div>
                       </div>
                       <!-- selected five section end -->
@@ -86,7 +95,7 @@
                         <div class="card-body items-center text-center">
                           <h2 class="card-title">Mashrafe Bin mortaza</h2>
                           <div class="card-actions">
-                            <button class="btn btn-primary">Select</button>
+                            <button class="btn btn-primary" onclick="addTocart(this)">Select</button>
                           </div>
                         </div>
                       </div>
@@ -99,7 +108,7 @@
                         <div class="card-body items-center text-center">
                           <h2 class="card-title">Rubel-Hossain</h2>
                           <div class="card-actions">
-                            <button class="btn btn-primary">Select</button>
+                            <button class="btn btn-primary" onclick="addTocart(this)">Select</button>
                           </div>
                         </div>
                       </div>
@@ -112,7 +121,7 @@
                         <div class="card-body items-center text-center">
                           <h2 class="card-title">Taskin Ahmed</h2>
                           <div class="card-actions">
-                            <button class="btn btn-primary">Select</button>
+                            <button class="btn btn-primary" onclick="addTocart(this)">Select</button>
                           </div>
                         </div>
                       </div>
@@ -134,7 +143,7 @@
                         <div class="card-body items-center text-center">
                           <h2 class="card-title">Sakib Al Hasan</h2>
                           <div class="card-actions">
-                            <button class="btn btn-primary">Select</button>
+                            <button class="btn btn-primary" onclick="addTocart(this)">Select</button>
                           </div>
                         </div>
                       </div>
