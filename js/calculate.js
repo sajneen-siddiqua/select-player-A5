@@ -37,10 +37,6 @@ document.getElementById('calculate-btn').addEventListener('click',function(){
    const perPlayerTotalCost = 5 * perPlayerInputFieldAmount
    perPlayerTotalElement.innerText = perPlayerTotalCost;
 
-//    const expenseTotal = document.getElementById('player-expenses');
-//    const previousExpenseTotalString = expenseTotal.innerText;
-//    const previousExpenseTotal = parseFloat(previousExpenseTotalString);
-   
-//    const totalExpenses = previousExpenseTotal * perPlayerTotalCost
+ 
 
 })
